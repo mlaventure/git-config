@@ -1,0 +1,45 @@
+[user]
+	name = Kenfe-Mickael Laventure
+	email = mickael.laventure@gmail.com
+
+[alias]
+	commit = commit -s
+	revert = revert -s
+	co = checkout
+	br = branch
+	ci = commit -s
+	st = status
+	chp = cherry-pick
+	dw = diff -w
+
+[rerere]
+	enabled = true
+	autoupdate = true
+[log]
+	date = local
+
+#[filter "lfs"]
+#	clean = git-lfs clean %f
+#	smudge = git-lfs smudge %f
+#	required = true
+
+[grep]
+	lineNumber = true
+[push]
+	default = simple
+#[core]
+#	excludesfile = /home/mlaventure/.gitignore_global
+[color "diff"]
+	whitespace = red reverse
+[diff]
+	compactionHeuristic = true
+[pager]
+	show = diff-highlight | less
+	diff = diff-highlight | less
+	log = diff-highlight | less
+[interactive]
+	diffFilter = diff-highlight
+[help]
+	autocorrect = 1
+[commit]
+	gpgsign = true
