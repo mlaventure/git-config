@@ -27,8 +27,8 @@
 	lineNumber = true
 [push]
 	default = simple
-#[core]
-#	excludesfile = /home/mlaventure/.gitignore_global
+[core]
+	excludesfile = ~/.gitignore
 [color "diff"]
 	whitespace = red reverse
 [diff]
